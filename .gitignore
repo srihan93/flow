@@ -5,3 +5,5 @@
 /Flows/.vs/Flows/v16
 /Flows/Flows.ServiceHost/obj
 /.vs
+/Flows/.vs/Flows/config
+/Flows/Flows.ServiceHost/bin/Debug/net5.0
