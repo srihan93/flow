@@ -4,20 +4,40 @@
     ViewData["Title"] = "Login to Flows";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
-
-<form asp-controller="Login" asp-action="SignIn" method="post">
-    <div>
-        <label asp-for="EmailAddress">Email Address</label>
-        <input asp-for="EmailAddress" />
-    </div>
-    <div>
-        <label asp-for="Password">Password</label>
-        <input asp-for="Password" />
-    </div>
 
 
-</form>
+        <div id="login">
+            <h3 class="text-center text-white pt-5">Login form</h3>
+            <div class="container">
+                <div id="login-row" class="row justify-content-center align-items-center">
+                    <div id="login-column" class="col-md-6">
+                        <div id="login-box" class="col-md-12">
+                            <form asp-controller="Login" asp-action="SignIn" method="post">
+                                <h3 class="text-center text-info">Login to Flow</h3>
+                                <div class="form-group">
+                                     <label asp-for="EmailAddress">Email Address</label>
+                                    <input asp-for="EmailAddress" />
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Password">Password</label>
+                                    <input asp-for="Password" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="remember-me" class="text-info"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
+                                    <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
+                                </div>
+                                <div id="register-link" class="text-right">
+                                    <a href="#" class="text-info">Register here</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+

@@ -7,3 +7,4 @@
 /.vs
 /Flows/.vs/Flows/config
 /Flows/Flows.ServiceHost/bin/Debug/net5.0
+/Flows/.vs/Flows/DesignTimeBuild
