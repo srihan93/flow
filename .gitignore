@@ -11,3 +11,4 @@
 /Flows/Flows.ServiceHost/Properties/PublishProfiles
 /Flows/Flows.ServiceHost/Properties/ServiceDependencies
 /Flows/Flows.ServiceHost/bin/Release/net5.0
+/Flows/DataAccess/obj
