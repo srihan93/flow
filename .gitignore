@@ -12,3 +12,7 @@
 /Flows/Flows.ServiceHost/Properties/ServiceDependencies
 /Flows/Flows.ServiceHost/bin/Release/net5.0
 /Flows/DataAccess/obj
+/Flows/Flows.DataAccess/bin/Debug/net5.0
+/Flows/Flows.DataAccess/obj
+/Flows/Flows.Domain/bin/Debug/net5.0
+/Flows/Flows.Domain/obj
